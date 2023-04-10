@@ -11,7 +11,7 @@
     "url": "https://github.com/svgstore/broccoli-svgstore"
   },
   "scripts": {
-    "test": "./node_modules/.bin/_mocha"
+    "test": "mocha"
   },
   "author": "Brian Sipple <brsipple42@gmail.com>",
   "license": "MIT",
@@ -38,5 +38,9 @@
     "chai": "4.0.1",
     "cheerio": "^0.22.0",
     "mocha": "^3.0.2"
+  },
+  "volta": {
+    "node": "14.21.3",
+    "npm": "6.14.18"
   }
 }
